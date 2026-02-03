@@ -1,0 +1,63 @@
+# ================================
+# Python / Jupyter
+# ================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+.ipynb_checkpoints/
+*.log
+
+# ================================
+# Virtual Environments
+# ================================
+venv/
+.venv/
+env/
+ENV/
+
+# ================================
+# OS / Editor
+# ================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ================================
+# Project Outputs (DO NOT PUSH)
+# ================================
+logs/
+outputs/
+plots/
+reports/
+models/
+
+# ================================
+# Datasets (DO NOT PUSH)
+# ================================
+data/
+data/**
+
+# If you want to keep folder structure only, add empty .gitkeep files manually
+# and commit them, but keep real dataset files ignored.
+
+# ================================
+# Archives / Large files
+# ================================
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.parquet
+*.csv
+
+# ================================
+# Credentials / Secrets
+# ================================
+kaggle.json
+*.env
+.env
+config.json
